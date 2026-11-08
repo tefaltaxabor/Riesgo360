@@ -1,0 +1,14 @@
+# Datos (demasiado grandes para GitHub; se descargan con data/download_data.py)
+data/raw/
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Credenciales
+.env
+kaggle.json
